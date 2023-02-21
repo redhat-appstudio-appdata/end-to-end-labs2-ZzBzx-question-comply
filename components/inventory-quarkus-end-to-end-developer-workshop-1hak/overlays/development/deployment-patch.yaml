@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:ZzBzx-inventory-quarkus-end-to-end-developer-workshop-1hak
+      - image: quay.io/redhat-appstudio/user-workload@sha256:94766178be4773203baa85ec95290376e5472b1998c33e7ff10ac5e051aed630
         name: container-image
         resources: {}
 status: {}
