@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: catalog-spring-boot-end-to-end-developer-workshop-z4fn
     app.kubernetes.io/part-of: end-to-end-labs2
-  name: catalog-spring-boot-end-tfdap
+  name: catalog-spring-boot-end-txpra
   namespace: agroom-tenant
 spec:
   port:

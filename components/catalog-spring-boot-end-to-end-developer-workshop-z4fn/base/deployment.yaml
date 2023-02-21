@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: catalog-spring-boot-end-to-end-developer-workshop-z4fn
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:ZzBzx-catalog-spring-boot-end-to-end-developer-workshop-z4fn
+      - image: quay.io/redhat-appstudio/user-workload@sha256:746c847912dc5719b88dd95669b23dfcdac2164f99be18bbabba50c505bd27ca
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
