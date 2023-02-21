@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: inventory-quarkus-end-to-end-developer-workshop-1hak
     app.kubernetes.io/part-of: end-to-end-labs2
-  name: inventory-quarkus-end-to-fqa5
+  name: inventory-quarkus-end-to-zmcz
   namespace: agroom-tenant
 spec:
   port:
