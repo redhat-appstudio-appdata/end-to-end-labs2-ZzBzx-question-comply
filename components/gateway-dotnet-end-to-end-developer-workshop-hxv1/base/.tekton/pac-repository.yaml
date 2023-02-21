@@ -1,0 +1,15 @@
+apiVersion: pipelinesascode.tekton.dev/v1alpha1
+kind: Repository
+metadata:
+  annotations:
+    appstudio.openshift.io/application: end-to-end-labs2
+    appstudio.openshift.io/component: gateway-dotnet-end-to-end-developer-workshop-hxv1
+    build.appstudio.openshift.io/build: "true"
+    build.appstudio.openshift.io/type: build
+    build.appstudio.openshift.io/version: "0.1"
+    pipelines.appstudio.openshift.io/type: build
+  creationTimestamp: null
+  name: gateway-dotnet-end-to-end-developer-workshop-hxv1
+  namespace: agroom-tenant
+spec:
+  url: https://github.com/RedHat-EMEA-SSA-Team/end-to-end-developer-workshop
