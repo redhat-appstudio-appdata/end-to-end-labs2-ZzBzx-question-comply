@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: gateway-dotnet-end-to-end-developer-workshop-hxv1
+  namespace: agroom-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload:ZzBzx-gateway-dotnet-end-to-end-developer-workshop-hxv1
+        name: container-image
+        resources: {}
+status: {}
