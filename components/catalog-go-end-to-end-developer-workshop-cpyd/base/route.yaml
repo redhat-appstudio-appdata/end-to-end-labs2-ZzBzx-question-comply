@@ -1,0 +1,23 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: catalog-go-end-to-end-developer-workshop-cpyd
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: catalog-go-end-to-end-developer-workshop-cpyd
+    app.kubernetes.io/part-of: end-to-end-labs2
+  name: catalog-go-end-to-end-dev5vnn
+  namespace: agroom-tenant
+spec:
+  port:
+    targetPort: 8080
+  tls:
+    insecureEdgeTerminationPolicy: Redirect
+    termination: edge
+  to:
+    kind: Service
+    name: catalog-go-end-to-end-developer-workshop-cpyd
+    weight: 100
+status: {}
