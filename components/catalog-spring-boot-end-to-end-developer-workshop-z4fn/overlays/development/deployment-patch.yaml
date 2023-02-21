@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: catalog-spring-boot-end-to-end-developer-workshop-z4fn
+  namespace: agroom-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:746c847912dc5719b88dd95669b23dfcdac2164f99be18bbabba50c505bd27ca
+        name: container-image
+        resources: {}
+status: {}
